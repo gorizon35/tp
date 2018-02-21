@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,8 +6,10 @@
 <title>Hello</title>
 </head>
 <body>
+<a href="/tp/ex0.php?message=Hello">Afficher Hello</a>
+
 <?php
-echo("Hello world !");
+echo "Vous êtes sur la page n° ".$_GET["page"];
 ?>
 </body>
 </html>
